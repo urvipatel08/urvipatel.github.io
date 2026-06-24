@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Urvi Patel</title>
+<meta name="description" content="Get in touch with Urvi Patel, urban designer and architect based in Philadelphia, PA. Open to new opportunities in urban design and planning.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23FAF9F6'/%3E%3Cpath d='M16 4v24M4 16h24' stroke='%231D4E66' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%2316191D' stroke-width='1.5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">URVI PATEL</a>
+    <nav class="nav" id="siteNav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="urban-design.html" class="nav-link">Urban Design</a>
+      <a href="architecture.html" class="nav-link">Architecture</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="container page-header">
+  <span class="eyebrow">Contact</span>
+  <h1>Let's Connect</h1>
+  <p>I'm based in Philadelphia and open to roles in urban design, planning, and related fields. If you're working on something interesting, I'd love to hear about it.</p>
+</div>
+
+<div class="container">
+
+  <div class="contact-grid">
+
+    <a href="mailto:urpatel0810@gmail.com" class="contact-card">
+      <span class="mono-label">Email</span>
+      <strong>urpatel0810@gmail.com</strong>
+      <p style="color:var(--ink-muted);font-size:.88rem;margin:0;">Send a message →</p>
+    </a>
+
+    <a href="tel:+18594156964" class="contact-card">
+      <span class="mono-label">Phone</span>
+      <strong>(859) 415-6964</strong>
+      <p style="color:var(--ink-muted);font-size:.88rem;margin:0;">Call or text →</p>
+    </a>
+
+    <a href="https://www.linkedin.com/in/urvi-patel-0b5b4a239/" target="_blank" rel="noopener" class="contact-card">
+      <span class="mono-label">LinkedIn</span>
+      <strong>linkedin.com/in/urvi-patel</strong>
+      <p style="color:var(--ink-muted);font-size:.88rem;margin:0;">View profile ↗</p>
+    </a>
+
+  </div>
+
+  <hr class="hairline">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--space-3);padding-block:var(--space-4);">
+    <div>
+      <span class="mono-label">Location</span>
+      <p style="font-family:var(--font-display);font-size:1.4rem;font-weight:800;margin:.3em 0 0;">Philadelphia, PA 19144</p>
+      <p style="color:var(--ink-muted);font-size:.9rem;margin:.4em 0 0;">Available for in-person, hybrid, or remote positions</p>
+    </div>
+
+    <div class="status-block">
+      <div class="title-block">
+        <p class="tb-row"><span>Status</span><span>Open to Opportunities</span></p>
+        <p class="tb-row"><span>Type</span><span>Full-time · Internship</span></p>
+        <p class="tb-row"><span>Focus</span><span>Urban Design · Planning</span></p>
+        <p class="tb-row"><span>Rev</span><span>2026</span></p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hairline" style="margin-bottom:var(--space-6);">
+
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <p class="footer-name">URVI PATEL</p>
+      <p class="footer-tagline">Urban Designer &amp; Architect<br>Philadelphia, PA</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-heading">Index</p>
+      <a href="index.html">Home</a>
+      <a href="urban-design.html">Urban Design</a>
+      <a href="architecture.html">Architecture</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-heading">Contact</p>
+      <a href="mailto:urpatel0810@gmail.com">urpatel0810@gmail.com</a>
+      <a href="tel:+18594156964">(859) 415-6964</a>
+      <a href="https://www.linkedin.com/in/urvi-patel-0b5b4a239/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-heading">Sheet</p>
+      <div class="title-block">
+        <p class="tb-row"><span>Rev</span><span>2026</span></p>
+        <p class="tb-row"><span>Scale</span><span>NTS</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Urvi Patel. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const nav = document.getElementById('siteNav');
+  if (navToggle && nav) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }));
+  }
+</script>
+</body>
+</html>
