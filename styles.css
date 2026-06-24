@@ -547,3 +547,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
   .project-card:hover, .contact-card:hover { transform: none; }
 }
+
+/* ---------- Single column image stack ---------- */
+.image-stack { display: flex; flex-direction: column; gap: 6px; margin-top: var(--space-3); }
+.image-stack img { width: 100%; height: auto; display: block; }
