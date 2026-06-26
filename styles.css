@@ -559,12 +559,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .page-ud .sheet-tag,
 .page-ud .sheet-header h3,
 .page-ud .eyebrow,
-.page-ud .page-header h1 { color: #717171; }
+.page-ud .page-header h1,
+.page-ud .proj-card-body p,
+.page-ud .proj-card-body .sheet-tag { color: #717171; }
 
 .page-arch .sheet-tag,
 .page-arch .sheet-header h3,
 .page-arch .eyebrow,
-.page-arch .page-header h1 { color: #3d6684; }
+.page-arch .page-header h1,
+.page-arch .proj-card-body p,
+.page-arch .proj-card-body .sheet-tag { color: #3d6684; }
 
 /* ---------- Full-bleed images on project pages ---------- */
 .page-ud .sheet,
