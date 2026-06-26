@@ -35,6 +35,32 @@
 </div>
 
 <div class="container">
+  <div class="project-contents">
+    <a href="#urban-recalibration" class="proj-card">
+      <img src="Urban%20Design%20Portfolio4.jpg" alt="Urban Recalibration">
+      <div class="proj-card-body">
+        <span class="sheet-tag">Project UD-01</span>
+        <p>Urban Recalibration</p>
+      </div>
+    </a>
+    <a href="#the-waters-edge" class="proj-card">
+      <img src="Urban%20Design%20Portfolio14.jpg" alt="The Water's Edge">
+      <div class="proj-card-body">
+        <span class="sheet-tag">Project UD-02</span>
+        <p>The Water's Edge</p>
+      </div>
+    </a>
+    <a href="#pedestrian-safety-walkability" class="proj-card">
+      <img src="Urban%20Design%20Portfolio22.jpg" alt="Pedestrian Safety + Walkability">
+      <div class="proj-card-body">
+        <span class="sheet-tag">Project UD-03</span>
+        <p>Pedestrian Safety + Walkability</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="container">
 
   <!-- Project UD-01 -->
   <article class="sheet reveal" id="urban-recalibration">
@@ -149,7 +175,7 @@
   } else {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } });
-    }, { threshold: 0.08 });
+    }, { threshold: 0 });
     revealEls.forEach(el => observer.observe(el));
   }
 </script>
