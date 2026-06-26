@@ -569,12 +569,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* ---------- Full-bleed images on project pages ---------- */
 .page-ud .sheet,
 .page-arch .sheet {
+  border: none;
+  background: transparent;
   padding-inline: 0;
+  border-top: 1px solid var(--line);
   overflow: visible;
 }
 .page-ud .sheet-header,
 .page-arch .sheet-header {
   padding-inline: 1.4em;
+  border-bottom: none;
 }
 .page-ud .sheet-credits,
 .page-arch .sheet-credits {
